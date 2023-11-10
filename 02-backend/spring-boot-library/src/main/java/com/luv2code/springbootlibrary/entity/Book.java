@@ -1,7 +1,8 @@
 package com.luv2code.springbootlibrary.entity;
-import jakarta.persistence.*;
+
 import lombok.Data;
 
+import javax.persistence.*;
 
 @Entity
 @Table(name = "book")
@@ -14,7 +15,7 @@ public class Book {
     private Long id;
 
     @Column(name = "title")
-    private String tile;
+    private String title;
 
     @Column(name = "author")
     private String author;
